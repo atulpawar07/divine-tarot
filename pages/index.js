@@ -1,5 +1,3 @@
-// pages/index.js
-
 export default function DivineTarotStore() {
   const bracelets = [
     { name: "Serpentine", image: "serpentine.jpg" },
@@ -42,9 +40,10 @@ export default function DivineTarotStore() {
               />
               <h4 className="text-xl font-semibold mb-2">{item.name} Bracelet</h4>
               <p className="text-sm text-gray-600 mb-2">Healing | Energy | Balance</p>
-              <p className="text-lg font-bold mb-4">Rs. 299</p>
+              <p className="text-sm text-gray-500 line-through">MRP: ₹1000</p>
+              <p className="text-lg font-bold text-green-600 mb-4">Now: ₹499</p>
               <a
-                href="https://wa.me/919769805184"
+                href={`https://wa.me/919769805184?text=Hi, I'm interested in the ${encodeURIComponent(item.name)} Bracelet at ₹499`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-purple-600 text-white py-2 px-4 rounded-xl hover:bg-purple-700"
