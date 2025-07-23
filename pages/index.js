@@ -44,7 +44,7 @@ export default function DivineTarotStore() {
               <p className="text-sm text-gray-600 mb-2">Healing | Energy | Balance</p>
               <p className="text-lg font-bold mb-4">Rs. 299</p>
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/919769805184"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-purple-600 text-white py-2 px-4 rounded-xl hover:bg-purple-700"
@@ -69,7 +69,7 @@ export default function DivineTarotStore() {
         <p className="text-lg">Have a question or want to place a bulk order?</p>
         <p className="text-lg mt-2">
           Message us on{" "}
-          <a href="https://wa.me/919999999999" className="text-purple-600 underline" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/919769805184" className="text-purple-600 underline" target="_blank" rel="noopener noreferrer">
             WhatsApp
           </a>
         </p>
