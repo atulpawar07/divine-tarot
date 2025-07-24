@@ -1,10 +1,48 @@
 export default function DivineTarotStore() {
   const bracelets = [
-    { name: "Serpentine", image: "serpentine.jpg" },
-    { name: "Tiger's Eye", image: "tigers-eye.jpg" },
-    { name: "Rose Quartz", image: "rose-quartz.jpg" },
-    { name: "Green Aventurine", image: "green-aventurine.jpg" },
-    { name: "Pyrite", image: "pyrite.jpg" },
+    { name: "Amazonite", image: "amazonite_bracelet.jpg" },
+    { name: "Amethyst Rose Quartz", image: "amethyst_rose_quartz_bracelet.jpg" },
+    { name: "Aventurine Tiger Eye Pyrite", image: "aventurine_tiger_eye_pyrite_bracelet.jpg" },
+    { name: "Banded Agate", image: "banded_agate_bracelet.jpg" },
+    { name: "Banded Agate Large", image: "banded_agate_bracelet_large.jpg" },
+    { name: "Black Onyx Clear Quartz", image: "black_onyx_clear_quartz_bracelet.jpg" },
+    { name: "Blue Tiger Eye", image: "blue_tiger_eye_bracelet.jpg" },
+    { name: "Citrine Baguettes", image: "citrine_baguette_bracelets.jpg" },
+    { name: "Citrine Carnelian Amazonite", image: "citrine_carnelian_amazonite_bracelet.jpg" },
+    { name: "Citrine Faceteds", image: "citrine_faceted_bracelets.jpg" },
+    { name: "Citrine Rose Quartz", image: "citrine_rose_quartz_bracelet.jpg" },
+    { name: "Citrine Smoky Quartz", image: "citrine_smoky_quartz_bracelet.jpg" },
+    { name: "Citrine Smoky Quartz 2", image: "citrine_smoky_quartz_bracelet_2.jpg" },
+    { name: "Clear Quartz", image: "clear_quartz_bracelet.jpg" },
+    { name: "Crackle Citrine", image: "crackle_citrine_bracelet.jpg" },
+    { name: "Faceted Pyrite Buddha", image: "faceted_pyrite_buddha_bracelet.jpg" },
+    { name: "Fancy Jasper", image: "fancy_jasper_bracelet.jpg" },
+    { name: "Gold Metal Beads", image: "gold_metal_beads_bracelet.jpg" },
+    { name: "Green Aventurine Citrine Hematite", image: "green_aventurine_citrine_hematite_bracelet.jpg" },
+    { name: "Green Frequency Tokens", image: "green_frequency_tokens.jpg" },
+    { name: "Hematite Citrine", image: "hematite_citrine_bracelet.jpg" },
+    { name: "Hematite Clear Quartz", image: "hematite_clear_quartz_bracelet.jpg" },
+    { name: "Lapis Lazuli", image: "lapis_lazuli_bracelet.jpg" },
+    { name: "Lava Stone Chakra", image: "lava_stone_chakra_bracelet.jpg" },
+    { name: "Multi Colour Cat Eye Glass", image: "multi_colour_cat_eye_glass_bracelet.jpg" },
+    { name: "Pink Aventurine", image: "pink_aventurine_bracelet.jpg" },
+    { name: "Purple Cat Eye", image: "purple_cat_eye_bracelet.jpg" },
+    { name: "Pyrite", image: "pyrite_bracelet.jpg" },
+    { name: "Pyrite Chakra", image: "pyrite_chakra_bracelet.jpg" },
+    { name: "Pyrite Citrine", image: "pyrite_citrine_bracelet.jpg" },
+    { name: "Pyrite Hematite Frequency Stones", image: "pyrite_hematite_frequency_stones.jpg" },
+    { name: "Pyrite Skull Charm", image: "pyrite_skull_charm_bracelet.jpg" },
+    { name: "Red Tiger Eye", image: "red_tiger_eye_bracelet.jpg" },
+    { name: "Rose Quartz Frequency Stones", image: "rose_quartz_frequency_stones.jpg" },
+    { name: "Rose Quartz Leaf Charm", image: "rose_quartz_leaf_charm_bracelet.jpg" },
+    { name: "Rutilated Quartz Aventurine Pyrite", image: "rutilated_quartz_aventurine_pyrite_bracelet.jpg" },
+    { name: "Smoky Quartz Clear Quartz", image: "smoky_quartz_clear_quartz_bracelet.jpg" },
+    { name: "Tiger Eye Hematite Onyx", image: "tiger_eye_hematite_onyx_bracelet.jpg" },
+    { name: "Tiger Eye Pyrite Citrine Amazonite", image: "tiger_eye_pyrite_citrine_amazonite.jpg" },
+    { name: "Turquoise", image: "turquoise_bracelet.jpg" },
+    { name: "Turquoise Matrix", image: "turquoise_matrix_bracelet.jpg" },
+    { name: "Turquoise Tiger Eye Clear Quartz", image: "turquoise_tiger_eye_clear_quartz_bracelet.jpg" },
+    { name: "White Opalite", image: "white_opalite_bracelet.jpg" }
   ];
 
   return (
@@ -67,7 +105,7 @@ export default function DivineTarotStore() {
         <h3 className="text-3xl font-bold mb-4">Contact Us</h3>
         <p className="text-lg">Have a question or want to place a bulk order?</p>
         <p className="text-lg mt-2">
-          Message us on{" "}
+          Message us on{' '}
           <a href="https://wa.me/919769805184" className="text-purple-600 underline" target="_blank" rel="noopener noreferrer">
             WhatsApp
           </a>
