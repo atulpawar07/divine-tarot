@@ -75,7 +75,7 @@ const toggleInput = (index) => {
             <a href="#products" className="hover:text-purple-600">Bracelets</a>
             <a href="#about" className="hover:text-purple-600">About</a>
             <a href="#contact" className="hover:text-purple-600">Contact</a>
-            <a href="https://www.instagram.com/divinetarot1491/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-600">Instagram</a>
+            <a href="https://www.instagram.com/divinetarot1491/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-600">Insta</a>
 
           </nav>
         </div>
