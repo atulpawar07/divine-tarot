@@ -75,8 +75,7 @@ const toggleInput = (index) => {
             <a href="#products" className="hover:text-purple-600">Bracelets</a>
             <a href="#about" className="hover:text-purple-600">About</a>
             <a href="#contact" className="hover:text-purple-600">Contact</a>
-            <a href="https://www.instagram.com/divinetarot1491/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-600">Insta</a>
-
+            
           </nav>
         </div>
       </header>
@@ -143,7 +142,7 @@ const toggleInput = (index) => {
 </div>
 
               <a
-                href={`https://wa.me/919920897066?text=Hi, I'm interested in the ${encodeURIComponent(item.name)} Bracelet at ₹${isCouponApplied(index) ? "499" : "1000"}`}
+                href={`https://wa.me/919867330019?text=Hi, I'm interested in the ${encodeURIComponent(item.name)} Bracelet at ₹${isCouponApplied(index) ? "499" : "1000"}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-purple-600 text-white py-2 px-4 rounded-xl hover:bg-purple-700"
